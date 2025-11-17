@@ -1,6 +1,13 @@
 # UltraLocked Security White Paper
 
-This repository contains the public white paper for **UltraLocked** — a secure, hardware-bound, zero-trust file vault for iOS. The white paper describes the system’s architecture, threat model, cryptographic design, and tamper-response mechanisms in detail.
+This repository contains the public white paper for **UltraLocked** — a secure, hardware-bound, zero-trust file vault for iOS. The white paper describes the system's architecture, threat model, cryptographic design, and tamper-response mechanisms in detail.
+
+## 📱 Download
+
+**UltraLocked** is available on the App Store:
+[Download on the App Store](https://apps.apple.com/us/app/ultralocked/id6749434984)
+
+Website: [ultralocked.com](https://ultralocked.com)
 
 ## 🔐 Purpose
 
@@ -29,5 +36,8 @@ To report a vulnerability, please refer to [`SECURITY.md`](./SECURITY.md)
 or email: **ultralocked+security@lab1908.com**
 
 ---
+
+**App Store:** [Download UltraLocked](https://apps.apple.com/us/app/ultralocked/id6749434984)
+**Website:** [ultralocked.com](https://ultralocked.com)
 
 © 2025 Lab 1908 LLC. All rights reserved.
