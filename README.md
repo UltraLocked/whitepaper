@@ -17,12 +17,19 @@ This document is intended for:
 - **Researchers and cryptographers** validating or reusing cryptographic patterns
 - **Technical decision-makers** assessing adoption risk
 
-It aims to establish **technical trust** through transparency and reproducibility — even though the product’s source code remains private.
+It aims to establish **technical trust** through transparency and reproducibility. The commercial iOS app remains private and subscription-funded, while the portable encrypted bundle format and security-critical documentation are published in the public [`security-core`](https://github.com/UltraLocked/security-core) repository.
 
 ## 📄 Contents
 
 - [`whitepaper.md`](./whitepaper.md) — Technical security whitepaper  
 - [`overview.md`](./overview.md) — Layperson whitepaper explainer
+
+## 🔎 Public Security Code
+
+The public security core is available at:
+[github.com/UltraLocked/security-core](https://github.com/UltraLocked/security-core)
+
+It includes the Swift package for `.ultralocked` encrypted export bundles, malformed-bundle tests, compatibility tests, and the public threat model. It does not include the commercial app shell, subscription UI, App Store configuration, signing material, outreach tooling, or backend deployment state.
 
 ## 🛡️ License
 
@@ -33,7 +40,7 @@ See [`LICENSE`](./LICENSE) for full terms.
 ## 📫 Security Contact
 
 To report a vulnerability, please refer to [`SECURITY.md`](./SECURITY.md)  
-or email: **ultralocked+security@lab1908.com**
+or email: **security@ultralocked.com**
 
 ---
 

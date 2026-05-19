@@ -6,15 +6,18 @@ Thank you for your interest in UltraLocked’s security. This project is maintai
 
 If you discover a vulnerability or potential issue, please report it privately by email:
 
-- **Email:** ultralocked+security@lab1908.com
+- **Email:** security@ultralocked.com
 
 Please do **not** file GitHub issues for sensitive security problems.
 
 ## ⛳ Scope
 
-This project is closed-source. This repository only contains documentation and a public white paper. Security reports are especially appreciated for:
+This repository contains documentation and a public white paper. The portable encrypted bundle format and supporting tests are published separately in the public [`security-core`](https://github.com/UltraLocked/security-core) repository. The commercial iOS app, subscription UI, App Store configuration, signing material, outreach tooling, and backend deployment state are outside the public scope.
+
+Security reports are especially appreciated for:
 
 - Inconsistencies or omissions in documented security guarantees
+- Issues in the public security core
 - Bypass of documented failsafes (duress codes, vault wipes, etc.)
 - Potential cryptographic design flaws
 - Forensic or side-channel weaknesses not already covered in the white paper
